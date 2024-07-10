@@ -1,0 +1,18 @@
+- Log In                    v             
+- Register                  v
+- Forgot Pass               v
+- 2 role user               
+- user: name - date
+- admin: all user
+
+# GET: first_render
+# POST: data requested 
+
+MySQL
+- install mysql.connector
+- error Error: Authentication plugin 'caching_sha2_password' is not supported
+- create database (check exit) + create table
+- login: check user, admin, wrong user or password; register: add user, check user exxited.
+- forgotpass: take pass
+- session
+

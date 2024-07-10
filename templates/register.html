@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyProject</title>
+</head>
+
+
+<body>
+    <div >
+        <form action="{{url_for('register') }}" method="post">
+            <h2>Register</h2>
+    
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="mail">E-Mail:</label>
+            <input type="text" id="mail" name="mail" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit" >Register</button>
+        </form>
+    </div>
+    <h2>{{Notice}}</h2>
+    <h2>Have an account ?</h2>
+    <button type="submit" onclick="(function(){window.location.href='login'})();">Log In</button>
+</body>
+</html>
